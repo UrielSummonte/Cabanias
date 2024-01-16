@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif, cursive;
+}
+
+/* Inicio cabecera */
+header {
+    background-color: white;
+}
+
+nav {
+    background-image: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #fffaeb, #f0f0d8);
+}
+
+.navbar-logo-lg {
+    width: 100px;
+    height: 50px;
+}
+
+.menu-hamburguesa {
+    width: 35px;
+    height: 35px;
+}
+
+.nav-item a {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.nav-logo-central {
+    width: 200px;
+    height: 100px;
+}
+
+/* Fin cabecera */
+
+/* Inicio imagen y nombre principal */
+.img-central {
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.nombre-centro {
+    text-align: center;
+    font-family: Architects Daughter, cursive;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, rgb(203, 206, 204), rgb(203, 206, 204), yellow, rgb(177, 245, 50), rgb(177, 245, 50));
+}
+
+.figure-img-central {
+    margin-bottom: 0;
+}
+
+/* Fin imagen y nombre principal */
+
+/* Inicio Servicios */
+.section-servicios {
+    margin-top: 1rem;
+}
+
+.article-servicios {
+    justify-content: center;
+
+}
+
+.article-servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicios-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    justify-content: end;
+}
+
+.article-servicios div h3 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.servicios-texto {
+    text-align: justify;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.servicios-items {
+    list-style-type: none;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+.servicios-items li {
+    display: inline-flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.servicios-ico {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Fin servicios */
+
+/* Inicio servicios destacados */
+.div-destacados {
+    margin: 1rem 0;
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-card div:last-child {
+    background-image: linear-gradient(to right, #fffaeb, #ffffff);
+}
+
+.card figure {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+.card-imagen-serv {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5;
+}
+
+.card-body p {
+    text-align: justify;
+    margin-top: 0.3rem;
+    padding: 0 1rem;
+}
+
+/* Fin servicios destacados */
+
+/* Inicio footer */
+footer {
+    height: 200px;
+    margin-top: 1rem;
+    background-image: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #fffaeb, #f0f0d8);
+}
+
+.footer-left {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left div h3 {
+    margin: 0.5rem 0;
+    font-family: Architects Daughter, cursive;
+    font-size: 1.7rem;
+}
+
+.footer-center {
+    height: 200px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 50%;
+    height: 100%;
+}
+
+.footer-div-redes {
+    width: 95%;
+    height: 50px;
+    margin: 0 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+}
+
+.footer-div-redes img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.footer-right {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-right form button {
+    background-color: rgb(86, 201, 33);
+}
+
+/* Fin footer */
+
+/* Inicio pagina cabañas */
+.div-cabanias {
+    margin: 1rem 0;
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-card-cab {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-card-cab div:last-child {
+    background-image: linear-gradient(to right, #fffaeb, #ffffff);
+}
+
+.section-cabanias article {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+}
+
+.card-caracteristica {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-caracteristica img {
+    height: 1rem;
+    width: 1rem;
+}
+
+.card-caracteristica div {
+    width: 45%;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+/* Fin pagina cabañas */
+
+/* Inicio pagina ubicacion */
+.card-ubicacion-texto {
+    background-image: linear-gradient(to right, #fffaeb, #ffffff);
+}
+
+.card-ubicacion-texto ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.card-ubicacion-texto li {
+    padding-left: 2rem;
+    background-image: url(../assets/icons/distancia32.png);
+    background-position: 0 0;
+    background-size: 1.5rem 1.5rem;
+    background-repeat: no-repeat;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.card-ubicacion-texto h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-ubicacion-texto h6 {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.article-donde-mapa {
+    height: 400px;
+}
+
+.article-donde-mapa iframe {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+}
+
+.article-donde-mapa {
+    height: 400px;
+}
+
+.article-donde-mapa iframe {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+}
+
+/* Fin pagina ubicacion */
+
+/* Inicio pagina visitas */
+.div-visitas {
+    justify-content: center;
+    gap: 0;
+    margin: 1rem 0;
+}
+
+.card-titulo {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body-fondo {
+    background-image: linear-gradient(to right, #fffaeb, #ffffff);
+}
+
+.section-galeria {
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+        "fig1 fig2 fig2 fig3"
+        "fig1 fig4 fig5 fig3"
+        "fig6 fig7 fig5 fig8"
+        "fig9 fig9 fig10 fig8";
+}
+
+.galeria-figura1 {
+    grid-area: fig1;
+}
+
+.galeria-figura2 {
+    grid-area: fig2;
+}
+
+.galeria-figura3 {
+    grid-area: fig3;
+}
+
+.galeria-figura4 {
+    grid-area: fig4;
+}
+
+.galeria-figura5 {
+    grid-area: fig5;
+}
+
+.galeria-figura6 {
+    grid-area: fig6;
+}
+
+.galeria-figura7 {
+    grid-area: fig7;
+}
+
+.galeria-figura8 {
+    grid-area: fig8;
+}
+
+.galeria-figura9 {
+    grid-area: fig9;
+}
+
+.galeria-figura10 {
+    grid-area: fig10;
+}
+
+.section-galeria figure {
+    width: 100%;
+    height: 100%;
+}
+
+.section-galeria img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fin pagina visitas */
+
+/* Inicio seccion contacto */
+.card-contacto {
+    padding: 1.5rem;
+}
+
+.div-contacto {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #fffaeb, #ffffff);
+}
+
+.div-contacto article {
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+.div-contacto-texto h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.div-contacto-texto h6 {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-contacto-texto {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+.div-contacto-mapa {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-contacto-mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.form-contacto {
+    padding: 1rem;
+}
+
+.form-contacto div {
+    margin-bottom: 0.8rem;
+}
+
+.div-personas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-personas div {
+    width: 45%;
+}
+
+.div-fechas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-fechas div {
+    width: 45%;
+}
+
+/* Fin seccion contacto */
+
+/* Inicio pagina preguntas frecuentes */
+
+.acordeon-preguntas {
+    --bs-accordion-btn-bg: #cdeadc;
+    --bs-accordion-active-bg: #adeada;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #ddeadd;
+}
+
+.accordion-button::after {
+    background-image: url(../assets/icons/add32.png);
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/icons/menos48.png);
+}
+
+/* Fin pagina preguntas frecuentes */
+
+
+/*Inicio Media queries */
+
+/* Inicio media query 480 */
+@media (max-width: 480px) {
+
+    /* Inicio pagina index */
+    nav {
+        background-image: linear-gradient(to right, #ffffff, #ffffff, #fffaeb, #f0f0d8, #fffaeb);
+    }
+
+    .nav-item a {
+        font-size: 1rem;
+        margin: 0 0.4rem;
+    }
+
+    .img-central {
+        height: 400px;
+    }
+
+    .nombre-centro {
+        font-size: 2rem;
+    }
+
+    .section-servicios {
+        margin-top: 0.5rem;
+    }
+
+    .article-servicios div {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .servicios-img {
+        border-radius: 20px;
+    }
+
+    .article-servicios div h3 {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .servicios-texto {
+        margin-top: 0.5rem;
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .servicios-items {
+        margin-top: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    /* Fin pagina index */
+
+    /* Inicio pagina cabañas */
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .card-caracteristica div {
+        width: 46%;
+        height: 1rem;
+        margin: 1rem 0;
+    }
+    
+
+    /* Fin css seccion cabañas */
+
+    /* Inicio pagina visitas */
+    .section-galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 150px);
+        grid-template-areas:
+            "fig1 fig2 fig2"
+            "fig3 fig4 fig5"
+            "fig3 fig7 fig6"
+            "fig8 fig8 fig6"
+            "fig10 fig9 fig9";
+    }
+
+    /* Fin pagina visitas */
+
+    /* Inicio footer */
+    footer {
+        background-image: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #ffffff, #fffaeb, #f0f0d8);
+    }
+
+    /* Fin footer */
+
+}
+
+/* Fin media query 480 */
+
+
+/* Inicio media query 481-767 */
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* Inicio pagina index */
+    nav {
+        background-image: linear-gradient(to right, #ffffff, #ffffff, #fffaeb, #f0f0d8, #fffaeb);
+    }
+
+    .nav-item a {
+        font-size: 1.1rem;
+        margin: 0 0.5rem;
+    }
+
+    .img-central {
+        height: 500px;
+    }
+
+    .nombre-centro {
+        font-size: 2.2rem;
+    }
+
+    .section-servicios {
+        margin-top: 0.8rem;
+    }
+
+    .article-servicios div {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .servicios-img {
+        border-radius: 25px;
+    }
+
+    .article-servicios div h3 {
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .servicios-texto {
+        margin-top: 0.8rem;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+    }
+
+    .servicios-items {
+        margin-top: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    /* Fin pagina index */
+
+    /* Inicio pagina cabañas */
+    .carousel-item img {
+        height: 220px;
+    }
+
+    .card-caracteristica div {
+        width: 40%;
+        height: 1.2rem;
+        margin: 1.1rem;
+    }
+
+    /* Fin css seccion cabañas */
+
+    /* Inicio pagina visitas */
+    .section-galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 180px);
+        grid-template-areas:
+            "fig1 fig2 fig2"
+            "fig3 fig4 fig5"
+            "fig3 fig7 fig6"
+            "fig8 fig8 fig6"
+            "fig10 fig9 fig9";
+    }
+
+    /* Fin pagina visitas */
+
+    /* Inicio footer */
+    footer {
+        background-image: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #ffffff, #fffaeb, #f0f0d8);
+    }
+
+    .footer-logo img {
+        width: 40%;
+        height: 100%;
+    }
+
+    .footer-div-redes img {
+        height: 2.6rem;
+        width: 2.6rem;
+    }
+
+    /* Fin footer */
+}
+
+/* Fin media query 481-767 */
+
+/* Inicio media query 768-1024 */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Inicio pagina index */
+    nav {
+        background-image: linear-gradient(to right, #ffffff, #ffffff, #fffaeb, #f0f0d8, #fffaeb);
+    }
+
+    .navbar-logo-lg {
+        width: 130px;
+        height: 80px;
+    }
+
+    .nav-item a {
+        font-size: 1.1rem;
+        margin: 0 0.5rem;
+    }
+
+    .img-central {
+        height: 550px;
+    }
+
+    .nombre-centro {
+        font-size: 2.7rem;
+    }
+
+    .servicios-img {
+        border-radius: 25px;
+    }
+
+    .article-servicios div h3 {
+        font-size: 1.5rem;
+    }
+
+    .servicios-texto {
+        font-size: 1.1rem;
+    }
+
+    .servicios-items {
+        margin-top: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    .servicios-items li p {
+        font-size: 1.1rem;
+    }
+
+    .servicios-ico {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    /* Fin pagina index */
+
+    /* Inicio pagina cabañas */
+    .carousel-item img {
+        height: 230px;
+    }
+
+    .card-caracteristica div {
+        width: 40%;
+        height: 1.2rem;
+    }
+
+    /* Fin css seccion cabañas */
+
+    /* Inicio pagina visitas */
+    .section-galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 200px);
+        grid-template-areas:
+            "fig1 fig2 fig2"
+            "fig3 fig4 fig5"
+            "fig3 fig7 fig6"
+            "fig8 fig8 fig6"
+            "fig10 fig9 fig9";
+    }
+
+    /* Fin pagina visitas */
+
+    /* Inicio footer */
+    footer {
+        background-image: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #ffffff, #fffaeb, #f0f0d8);
+    }
+
+    .footer-left div h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-left div p {
+        font-size: 0.9rem;
+        text-align: start;
+    }
+
+    .footer-logo img {
+        width: 80%;
+        height: 100%;
+    }
+
+    .footer-div-redes {
+        width: 85%;
+    }
+
+    .footer-div-redes img {
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+
+    .footer-right form div {
+        display: inline-block;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .input-group>.form-control {
+        width: 100%;
+    }
+
+    .footer-right form button {
+        background-color: rgb(86, 201, 33);
+    }
+
+    .footer-right h4 {
+        font-size: 1.4rem;
+    }
+
+    /* Fin footer */
+}
+
+/* Fin media query 768 - 1024*/
+
+/* Fin media queries */

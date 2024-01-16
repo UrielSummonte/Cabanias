@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS de Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS de Boostrap -->
+
+    <!-- Llamada al archivo css -->
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <title>preguntas</title>
+</head>
+
+<body>
+    <header>
+        <!-- Inicio menu -->
+        <nav class="navbar navbar-expand-lg bg-fondo">
+            <div class="container-fluid">
+                <a class="navbar-brand d-lg-none" href="../index.html">
+                    <img src="../assets/img/cabeceras/logo1.png" alt="Logo de pagina" class="navbar-logo-lg">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <img src="../assets/icons/menu32.png" alt="Icono de menu hamburguesa" class="menu-hamburguesa">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cabanias.html">CABAÑAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html">UBICACION</a>
+                        </li>
+                    </ul>
+
+                    <a class="navbar-brand d-none d-lg-block me-auto" href="../index.html">
+                        <img src="../assets/img/cabeceras/logo1.png" alt="Logo de pagina" class="nav-logo-central">
+                    </a>
+
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="visitas.html">SALIDAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="preguntas.html">PREGUNTAS</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Fin menu  -->
+    </header>
+
+    <main>
+        <!-- Inicio imagen principal y titulo -->
+        <section class="container-fluid">
+            <div class="col-12">
+                <figure class="row figure-img-central">
+                    <img src="../assets/img/cabeceras/Sin título_auto_x2.jpg" alt="Imagen principal de cabaña"
+                        class="img-fluid img-central">
+                </figure>
+                <div row>
+                    <h2 class="nombre-centro">Visitas Guíadas</h2>
+                </div>
+            </div>
+        </section>
+        <!-- Fin imagen principal y titulo -->
+
+        <!-- Inicio seccion preguntas frecuentes -->
+        <section class="container-fluid">
+            <article class="row">
+                <div class="col-12">
+                    <div class="accordion p-4 accordion-flush acordeon-preguntas" id="acordeon-preguntas">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#pregunta1" aria-expanded="false" aria-controls="pregunta1">
+                                    ¿Cuáles son los medio de pago habilitados?
+                                </button>
+                            </h2>
+                            <div id="pregunta1" class="accordion-collapse collapse"
+                                data-bs-parent="#acordeon-preguntas">
+                                <div class="accordion-body">El pago debe efectuarse en efectivo, transferencia o débito
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
+                                    ¿Cuáles son los horarios de entrada y salida de la cabaña?
+                                </button>
+                            </h2>
+                            <div id="pregunta2" class="accordion-collapse collapse"
+                                data-bs-parent="#acordeon-preguntas">
+                                <div class="accordion-body">El horario de check-out es a las 10:00. Puede dejar el
+                                    equipaje
+                                    hasta la tarde en la oficina de Administración, sin cargo. En algunos casos podemos
+                                    coordinar un late check-out abonando medio día de estadía, pero solo consultando y
+                                    acordándolo previamente.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#pregunta3" aria-expanded="false" aria-controls="pregunta3">
+                                    ¿Cómo hago para realizar una reserva?
+                                </button>
+                            </h2>
+                            <div id="pregunta3" class="accordion-collapse collapse"
+                                data-bs-parent="#acordeon-preguntas">
+                                <div class="accordion-body">Si usted ya consultó la tarifa y quiere concretar una
+                                    reserva,
+                                    debe seguir los siguientes pasos:
+                                    <ol>
+                                        <li>
+                                            Enviar un mail indicando su intención de reservar, fechas concretas de
+                                            ingreso y
+                                            salida, cantidad de personas.
+                                        </li>
+                                        <li>
+                                            Realizar el depósito de la seña solicitada en respuesta a su mail.
+                                            Generalmente
+                                            pedimos el equivalente a 2 días de alojamiento. El valor solicitado no es un
+                                            número exacto, ya que a cada cliente le pedimos un importe distinto para
+                                            poder
+                                            reconocerlos fácilmente una vez acreditados.
+                                        </li>
+                                        <li>
+                                            Enviar un mail indicando importe, fecha y terminal en la cual se efectuó el
+                                            depósito, y un número de teléfono celular que traigan durante el viaje.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#pregunta4" aria-expanded="false" aria-controls="pregunta4">
+                                    ¿Puedo llevar a mi mascota?
+                                </button>
+                            </h2>
+                            <div id="pregunta4" class="accordion-collapse collapse"
+                                data-bs-parent="#acordeon-preguntas">
+                                <div class="accordion-body">No se aceptan mascotas en el complejo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#pregunta5" aria-expanded="false" aria-controls="pregunta5">
+                                    ¿Qué elementos incluye la cabaña?
+                                </button>
+                            </h2>
+                            <div id="pregunta5" class="accordion-collapse collapse"
+                                data-bs-parent="#acordeon-preguntas">
+                                <div class="accordion-body">Las cabañas incluyen vajilla completa en la cocina, ropa
+                                    blanca, toallas, horno eléctrico y pava electrica. Solo debe traer sus artículos
+                                    personales.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Fin seccion preguntas frecuentes -->
+        
+    </main>
+
+    <!-- Inicio seccion Footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <!-- Columna izquierda -->
+            <article class="col-12 col-md-4 col-lg-4 d-none d-md-block footer-left">
+                <div>
+                    <h3 class="">Cabañas Del Norte</h3>
+                    <p>Direccion: R.P. N° 40 Km 565 - Catamarca</p>
+                    <p>Telefono: 3834000000 / 3834000001</p>
+                </div>
+            </article>
+
+            <!--  Columna central -->
+            <article class="col-12 col-md-4 col-lg-4 footer-center">
+                <div class="footer-logo">
+                    <img src="../assets/img/cabeceras/logo.png" alt="Logo de pagina" class="img-fluid">
+                </div>
+                <div class="footer-div-redes">
+                    <a href="https://wa.me/5493834751593" target="_blank">
+                        <img src="../assets/icons/whatsapp48.png" alt="Logo de whatsapp">
+                    </a>
+                    <a href="https://www.instagram.com/urielsum/" target="_blank">
+                        <img src="../assets/icons/instagram48.png" alt="Logo de instagram">
+                    </a>
+                    <a href="https://www.facebook.com/uriel.summonte/" target="_blank">
+                        <img src="../assets/icons/facebook48.png" alt="Logo de facebook">
+                    </a>
+                </div>
+            </article>
+
+            <!-- Columna derecha -->
+            <article class="col-12 col-md-4 col-lg-4 d-none d-md-block footer-right">
+                <h4>Suscripción:</h4>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico"
+                            aria-label="Correo electrónico" aria-describedby="button-addon2">
+                        <button class="btn btn-suscribite" type="button" id="button-addon2">Suscríbete</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </footer>
+    <!-- Fin seccion Footer -->
+
+    <!-- Script de Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Script de Boostrap -->
+
+</body>
+
+</html>
