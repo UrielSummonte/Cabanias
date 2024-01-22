@@ -1,0 +1,14 @@
+//Base
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//Utilities
+@import 'partials/utilities/variables';
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
+
+//Components
+@import 'partials/components/header';
+@import 'partials/components/cards';
+@import 'partials/components/buttons';
+@import 'partials/components/index';
