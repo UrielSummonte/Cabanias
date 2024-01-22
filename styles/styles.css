@@ -373,13 +373,13 @@ footer {
     margin: 0.5rem 0;
     width: 100%;
     height: 300px; 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .carousel-img img {
-    width: 90%;
+    width: 100%;
     height: 300px;
 }
 
@@ -625,6 +625,34 @@ footer {
     /* Fin css seccion cabañas */
 
     /* Inicio pagina visitas */
+    .section-visitas {
+        margin: 0.5rem 0;
+    }
+    
+    .div-img-visitas {
+        height: 200px;
+    }
+    
+    .card-img-top {
+        height: 200px;
+    }
+    
+    .card-body-fondo {
+        margin-top: 0.5rem;
+    }
+    
+    .div-card-titulo {
+        margin: 0.5rem 0 0 0;
+    }
+    
+    .carousel-img {
+        height: 200px; 
+    }
+    
+    .carousel-img img {
+        height: 200px;
+    }   
+
     .section-galeria {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 150px);
@@ -716,6 +744,34 @@ footer {
     /* Fin css seccion cabañas */
 
     /* Inicio pagina visitas */
+    .section-visitas {
+        margin: 0.7rem 0;
+    }
+    
+    .div-img-visitas {
+        height: 230px;
+    }
+    
+    .card-img-top {
+        height: 230px;
+    }
+    
+    .card-body-fondo {
+        margin-top: 0.7rem;
+    }
+    
+    .div-card-titulo {
+        margin: 0.7rem 0 0 0;
+    }
+    
+    .carousel-img {
+        height: 230px; 
+    }
+    
+    .carousel-img img {
+        height: 230px;
+    }   
+
     .section-galeria {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 180px);
@@ -815,7 +871,22 @@ footer {
 
     /* Fin css seccion cabañas */
 
-    /* Inicio pagina visitas */
+    /* Inicio pagina visitas */  
+    .div-img-visitas {
+        height: 280px;
+    }
+    
+    .card-img-top {
+        height: 280px;
+    }
+    
+    .carousel-img {
+        height: 280px; 
+    }
+    
+    .carousel-img img {
+        height: 280px;
+    }   
     .section-galeria {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 200px);
