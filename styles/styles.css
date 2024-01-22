@@ -229,6 +229,10 @@ footer {
     background-color: rgb(86, 201, 33);
 }
 
+.footer-right form button:hover{
+    background-color: rgb(121, 240, 66);
+}
+
 /* Fin footer */
 
 /* Inicio pagina cabañas */
@@ -312,6 +316,16 @@ footer {
     margin-bottom: 1rem;
 }
 
+.div-col-img{
+    width: 30%;
+}
+
+.div-col-img img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
 .article-donde-mapa {
     height: 400px;
 }
@@ -355,7 +369,7 @@ footer {
 }
 
 .card-body-fondo {
-    margin-top: 1rem;
+    margin: 1rem;
     background-image: linear-gradient(to right, #fffaeb, #ffffff);
 }
 
@@ -373,9 +387,6 @@ footer {
     margin: 0.5rem 0;
     width: 100%;
     height: 300px; 
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .carousel-img img {
@@ -511,6 +522,15 @@ footer {
 
 .form-contacto div {
     margin-bottom: 0.8rem;
+}
+
+.form-contacto button{
+    background-color: rgb(86, 201, 33);
+    width: 20%;
+}
+
+.form-contacto button:hover{
+    background-color: rgb(121, 240, 66);
 }
 
 .div-personas {
