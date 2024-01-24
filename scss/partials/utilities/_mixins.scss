@@ -1,0 +1,25 @@
+@mixin superficie($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin flex($direccion, $justify, $align) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin block($direccion, $justify, $align) {
+    display: block;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin box($display, $direccion, $justify, $align) {
+    display: $display;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}

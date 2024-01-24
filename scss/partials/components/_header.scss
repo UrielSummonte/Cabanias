@@ -1,0 +1,26 @@
+header {
+    background-color: $color_blanco;
+}
+
+nav {
+    background-image: $fondo_nav_max;
+}
+
+.navbar-logo-lg {
+    @include superficie(50px, 100px);
+}
+
+.menu-hamburguesa {
+    @include superficie(35px, 35px);
+}
+
+.nav-item {
+    a {
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
+    }
+}
+
+.nav-logo-central {
+    @include superficie(100px, 200px);
+}

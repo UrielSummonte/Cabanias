@@ -1,0 +1,61 @@
+.section-galeria {
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+        "fig1 fig2 fig2 fig3"
+        "fig1 fig4 fig5 fig3"
+        "fig6 fig7 fig5 fig8"
+        "fig9 fig9 fig10 fig8";
+
+    figure {
+        @include superficie(100%, 100%);
+
+        img {
+            object-fit: fill;
+            @include superficie(100%, 100%);
+        }
+    }
+}
+
+
+.galeria-figura1 {
+    grid-area: fig1;
+}
+
+.galeria-figura2 {
+    grid-area: fig2;
+}
+
+.galeria-figura3 {
+    grid-area: fig3;
+}
+
+.galeria-figura4 {
+    grid-area: fig4;
+}
+
+.galeria-figura5 {
+    grid-area: fig5;
+}
+
+.galeria-figura6 {
+    grid-area: fig6;
+}
+
+.galeria-figura7 {
+    grid-area: fig7;
+}
+
+.galeria-figura8 {
+    grid-area: fig8;
+}
+
+.galeria-figura9 {
+    grid-area: fig9;
+}
+
+.galeria-figura10 {
+    grid-area: fig10;
+}

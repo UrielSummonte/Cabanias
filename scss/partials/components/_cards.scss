@@ -1,0 +1,257 @@
+//Cards Servicios Destacados de pagina index
+.div-destacados {
+    margin: 1rem 0;
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-card {
+    @include flex(column, none, none);
+    height: 100%;
+
+    div {
+        &:last-child {
+            background-image: $fondo_cards;
+        }
+    }
+
+    figure {
+        @include superficie(250px, 100%);
+        margin-bottom: 1rem;
+    }
+}
+
+.card-imagen-serv {
+    object-fit: cover;
+    @include superficie(100%, 100%);
+}
+
+.card-body {
+    h3 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0.5;
+    }
+
+    p {
+        text-align: justify;
+        margin-top: 0.3rem;
+        padding: 0 1rem;
+    }
+}
+
+//Cards Pagina Cabañas
+.div-cabanias {
+    margin: 1rem 0;
+    row-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-card-cab {
+    @include box(flex, column, none, none);
+    height: 100%;
+
+    div {
+        &:last-child {
+            background-image: $fondo_cards;
+        }
+    }
+}
+
+.section-cabanias {
+    article {
+        @include box(flex, row, none, none);
+    }
+}
+
+.carousel-item img {
+    @include superficie(300px, 100%);
+}
+
+.card-caracteristica {
+    width: 100%;
+    @include box(flex, row, space-between, none);
+    flex-wrap: wrap;
+
+    div {
+        @include superficie(1.5rem, 45%);
+        margin: 0.5rem;
+    }
+
+    img {
+        @include superficie(1rem, 1rem);
+    }
+}
+
+//Card Pagina Ubicacion
+.card-ubicacion-texto {
+    background-image: $fondo_cards;
+
+    ul {
+        list-style-type: none;
+        margin-top: 1rem;
+        padding-left: 2rem;
+
+        li {
+            padding-left: 2rem;
+            background-image: url(../assets/icons/distancia32.png);
+            background-position: 0 0;
+            background-size: 1.5rem 1.5rem;
+            background-repeat: no-repeat;
+            line-height: 1.3rem;
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.div-col-img {
+    width: 30%;
+
+    img {
+        object-fit: fill;
+        @include superficie(100%, 100%);
+    }
+}
+
+//Cards Pagina Visitas
+.section-visitas {
+    margin: 1rem 0;
+}
+
+.div-img-visitas {
+    @include box(flex, row, none, none);
+    height: 300px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.div-items{
+    justify-content: space-around;
+}
+
+.card-body-fondo {
+    margin: 1rem;
+    background-image: $fondo_cards;
+}
+
+.div-card-titulo {
+    margin: 1rem 0 0 0;
+
+    h3 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+.carousel-img {
+    margin: 0.5rem 0;
+    @include superficie(300px, 100%);
+
+    img {
+        @include superficie(300px, 100%);
+    }
+}
+
+.item-texto{
+    h5 {
+        text-align: center;
+    }
+
+    p{
+        text-align: justify;
+    }
+} 
+
+//Cards Pagina Contacto
+.card-contacto {
+    padding: 1.5rem;
+}
+
+.div-contacto {
+    @include box(flex, row, center, none);
+    flex-wrap: wrap;
+    background-image: $fondo_cards;
+
+    article {
+        margin-bottom: 1rem;
+        border: 1px solid black;
+    }
+}
+
+.div-contacto-texto{
+    @include box(flex, column, none, none);
+    // display: flex;
+    // flex-direction: column;
+    height: 20%;
+
+    h4 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    h6 {
+        @include box(flex, row, none, none);
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+} 
+
+.div-contacto-mapa {
+    @include superficie(75%, 100%);
+    @include box(flex, column, center, none);
+
+    iframe {
+        @include superficie(100%, 100%);
+    }
+}
+
+.form-contacto {
+    padding: 1rem;
+
+    div {
+        margin-bottom: 0.8rem;
+    }
+
+    button{
+        background-color: rgb(86, 201, 33);
+        width: 20%;
+
+        &:hover{
+            background-color: rgb(121, 240, 66);
+        }
+    }
+}
+
+.div-personas {
+    @include box(flex, row, space-between, none);
+
+    div {
+        width: 45%;
+    }
+}
+
+.div-fechas {
+    @include box(flex, row, space-between, none);
+
+    div {
+        width: 45%;
+    }
+}

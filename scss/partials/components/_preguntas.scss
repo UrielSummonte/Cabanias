@@ -1,0 +1,15 @@
+.acordeon-preguntas {
+    --bs-accordion-btn-bg: #cdeadc;
+    --bs-accordion-active-bg: #adeada;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #ddeadd;
+}
+
+.accordion-button::after {
+    background-image: url(../assets/icons/add32.png);
+    transition: all 0.5s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/icons/menos48.png);
+}

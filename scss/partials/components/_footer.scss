@@ -1,0 +1,63 @@
+footer {
+    height: 200px;
+    margin-top: 1rem;
+    background-image: $fondo_footer;
+}
+
+//Columna izquierda
+.footer-left {
+    @include box(flex, column, none, center);
+    padding: 1rem;
+
+    div{
+        h3 {
+            margin: 0.5rem 0;
+            font-family: Architects Daughter, cursive;
+            font-size: 1.7rem;
+        }
+    }
+}
+
+//Columna central
+.footer-center {
+    height: 200px;
+     @include box(block, column, center, none);
+}
+
+.footer-logo {
+    @include box(flex, none, center, none);
+    height: 130px;
+
+    img {
+        @include superficie(100%, 50%);
+    }
+}
+
+.footer-div-redes {
+    @include superficie(50px, 95%);
+    margin: 0 1rem;
+    @include box(inline-flex, none, center, start);
+    gap: 2rem;
+
+    img {
+        @include superficie(2.5rem, 2.5rem);
+    }
+}
+
+//Columna derecha
+.footer-right {
+    @include box(flex, column, center, none);
+    padding: 1rem;
+
+    form {
+        @include box(flex, row, center, center);
+
+        button {
+            background-color: $color_button;
+
+            &:hover{
+                background-color: $color_button_hover;
+            }
+        }
+    }
+}

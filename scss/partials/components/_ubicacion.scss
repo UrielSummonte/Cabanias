@@ -1,0 +1,8 @@
+.article-donde-mapa {
+    height: 400px;
+
+    iframe {
+        @include superficie(100%, 100%);
+        padding-top: 0.5rem;
+    }
+}
