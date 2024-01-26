@@ -24,10 +24,7 @@
     justify-content: center;
 
     div {
-        @include flex(column, center, none);
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
+        @include box(flex, column, center, none);
 
         h3 {
             text-align: center;
@@ -66,46 +63,3 @@
 .servicios-ico {
     @include superficie(1rem, 1rem);
 }
-
-// //Servicios Destacados
-// .div-destacados {
-//     margin: 1rem 0;
-//     row-gap: 1rem;
-//     display: flex;
-//     flex-wrap: wrap;
-// }
-
-// .card-card {
-//     @include flex(column, none, none);
-//     height: 100%;
-
-//     div {
-//         &:last-child {
-//             background-image: $fondo_cards;
-//         }
-//     }
-
-//     figure {
-//         @include superficie(250px, 100%);
-//         margin-bottom: 1rem;
-//     }
-// }
-
-// .card-imagen-serv {
-//     object-fit: cover;
-//     @include superficie(100%, 100%);
-// }
-
-// .card-body {
-//     h3 {
-//         text-align: center;
-//         margin-top: 0;
-//         margin-bottom: 0.5;
-//     }
-
-//     p {
-//         text-align: justify;
-//         margin-top: 0.3rem;
-//         padding: 0 1rem;
-//     }
-// }

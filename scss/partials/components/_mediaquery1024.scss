@@ -1,0 +1,153 @@
+//Media query 1024px
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    //Pagina index
+    nav {
+        background-image: $fondo_nav_mob;
+    }
+
+    .navbar-logo-lg {
+        @include superficie(80px, 130px);
+    }
+
+    .nav-item {
+        a {
+            font-size: 1.1rem;
+            margin: 0 0.5rem;
+        }
+    }
+
+    .img-central {
+        height: 550px;
+    }
+
+    .nombre-centro {
+        font-size: 2.7rem;
+    }
+
+    .article-servicios {
+        div {
+
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .servicios-img {
+        border-radius: 25px;
+    }
+
+    .servicios-texto {
+        font-size: 1.1rem;
+    }
+
+    .servicios-items {
+        margin-top: 1.3rem;
+        padding-left: 1rem;
+
+        li{
+            p {
+                font-size: 1.1rem;
+            }
+        } 
+    }
+
+    .servicios-ico {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    //Pagina cabañas
+    .carousel-item {
+        img {
+            height: 230px;
+        }
+    }
+
+    .card-caracteristica {
+        div {
+            @include superficie(1.2rem, 40%);
+        }
+    }
+
+    //Pagina visitas
+    .div-img-visitas {
+        height: 280px;
+    }
+
+    .card-img-top {
+        height: 280px;
+    }
+
+    .carousel-img {
+        height: 280px; 
+
+        img {
+            height: 280px;
+        }
+    }
+
+    .section-galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 200px);
+        grid-template-areas:
+            "fig1 fig2 fig2"
+            "fig3 fig4 fig5"
+            "fig3 fig7 fig6"
+            "fig8 fig8 fig6"
+            "fig10 fig9 fig9";
+    }
+
+    //Footer
+    footer {
+        background-image: $fondo_footer;
+    }
+
+    .footer-left{
+        div{
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+                text-align: start;
+            }
+        } 
+    } 
+
+    .footer-logo{
+        img {
+            @include superficie(100%, 80%);
+        }
+    } 
+
+    .footer-div-redes {
+        width: 85%;
+
+        img {
+            @include superficie(2.6rem, 2.6rem);
+        }
+    }
+
+    .footer-right{
+        h4 {
+            font-size: 1.4rem;
+        }
+        
+        form{
+            div {
+                @include box(inline-block, row, center, start);
+            }
+            button {
+                background-color: $color_button;
+            }
+        } 
+    } 
+
+    .input-group>.form-control {
+        width: 100%;
+    }
+
+}

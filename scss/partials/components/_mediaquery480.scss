@@ -1,0 +1,112 @@
+//Media query 480px
+@media (max-width: 480px) {
+
+    //Pagina index
+    nav {
+        background-image: $fondo_nav_mob;
+    }
+
+    .nav-item{
+        a {
+            font-size: 1rem;
+            margin: 0 0.4rem;
+        }
+    } 
+
+    .img-central {
+        height: 400px;
+    }
+
+    .nombre-centro {
+        font-size: 2rem;
+    }
+
+    .section-servicios {
+        margin-top: 0.5rem;
+    }
+
+    .article-servicios{
+        div {
+            @include box(inline-block, none, center, none);
+
+            h3 {
+                padding-top: 1rem;
+                font-size: 1.2rem;
+            }
+        }
+    } 
+
+    .servicios-img {
+        border-radius: 20px;
+    }
+
+    .servicios-texto {
+        margin-top: 0.5rem;
+        padding: 0 1rem;
+        font-size: 1rem;
+    }
+
+    .servicios-items {
+        margin-top: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    //Pagina cabañas
+    .carousel-item{
+        img {
+            height: 200px;
+        }
+    } 
+
+    .card-caracteristica{
+        div {
+            @include superficie(1rem, 46%);
+            margin: 1rem 0;
+        }
+    } 
+
+    //Pagina visitas
+    .section-visitas {
+        margin: 0.5rem 0;
+    }
+    
+    .div-img-visitas {
+        height: 200px;
+    }
+    
+    .card-img-top {
+        height: 200px;
+    }
+
+    .card-body-fondo {
+        margin-top: 0.5rem;
+    }
+    
+    .div-card-titulo {
+        margin: 0.5rem 0 0 0;
+    }
+    
+    .carousel-img {
+        height: 200px; 
+
+        img {
+            height: 200px;
+        }   
+    }
+
+    .section-galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 150px);
+        grid-template-areas:
+            "fig1 fig2 fig2"
+            "fig3 fig4 fig5"
+            "fig3 fig7 fig6"
+            "fig8 fig8 fig6"
+            "fig10 fig9 fig9";
+    }
+
+    //Footer
+    footer {
+        background-image: $fondo_footer_mob;
+    }
+}
