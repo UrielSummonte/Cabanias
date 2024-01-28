@@ -9,7 +9,7 @@ footer {
     @include box(flex, column, none, center);
     padding: 1rem;
 
-    div{
+    div {
         h3 {
             margin: 0.5rem 0;
             font-family: Architects Daughter, cursive;
@@ -21,7 +21,7 @@ footer {
 //Columna central
 .footer-center {
     height: 200px;
-     @include box(block, column, center, none);
+    @include box(block, column, center, none);
 }
 
 .footer-logo {
@@ -55,7 +55,7 @@ footer {
         button {
             background-color: $color_button;
 
-            &:hover{
+            &:hover {
                 background-color: $color_button_hover;
             }
         }

@@ -1,9 +1,10 @@
 $color_blanco: white;
-$fondo_nav_max: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #fffaeb, #f0f0d8);
-$fondo_nav_mob: linear-gradient(to right, #ffffff, #ffffff, #fffaeb, #f0f0d8, #fffaeb);
-$fondo_nombre_central: linear-gradient(to right, rgb(203, 206, 204), rgb(203, 206, 204), yellow, rgb(177, 245, 50), rgb(177, 245, 50));
-$fondo_footer_mob:  linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #ffffff, #fffaeb, #f0f0d8);
-$fondo_cards: linear-gradient(to right, #fffaeb, #ffffff);
-$fondo_footer: linear-gradient(to right, #f0f0d8, #fffaeb, #ffffff, #fffaeb, #f0f0d8);
+$fondo_nav_max: linear-gradient(to right, rgb(240,240,216), rgb(255,250,235), rgb(255,255,255), rgb(255,250,235), rgb(240,240,216));
+$fondo_nav_mob: linear-gradient(to right, rgb(255,255,255), rgb(255,255,255), rgb(255,250,235), rgb(240,240,216), rgb(255,250,235));
+$fondo_nombre_central: linear-gradient(to right, rgb(203, 206, 204), rgb(203, 206, 204), rgb(255,255,50), rgb(177, 245, 50), rgb(177, 245, 50));
+$fondo_footer_mob:  linear-gradient(to right, rgb(240,240,216), rgb(255,250,235), rgb(255,255,255), rgb(255,255,255), rgb(255,250,235), rgb(240,240,216));
+$fondo_cards: linear-gradient(to right, rgb(255,250,235), rgb(255,255,255));
+$fondo_footer: linear-gradient(to right, rgb(240,240,216), rgb(255,250,235), rgb(255,255,255), rgb(255,250,235), rgb(240,240,216));
+$fondo_servicios_texto: linear-gradient(to right, rgb(255,255,255), rgb(255,250,235), rgb(240,240,216));
 $color_button: rgb(86, 201, 33);
 $color_button_hover: rgb(121, 240, 66);
